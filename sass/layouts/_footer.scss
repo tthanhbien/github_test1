@@ -1,0 +1,39 @@
+.footer {
+  background-color: #2a73dd;
+  padding-bottom: 60px;
+  color: #fff;
+  img {
+    margin-bottom: 60px;
+  }
+  .img-light {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .img-dark {
+    max-width: 100%;
+    height: auto;
+    display: none;
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: end;
+    .footer-item {
+      a {
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        &:hover {
+          opacity: 0.75;
+        }
+        @include Responsive(XS) {
+          padding: 0.5rem 0.5rem;
+        }
+      }
+    }
+  }
+}

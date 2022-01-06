@@ -1,6 +1,6 @@
-@import "./helpers/variable";
-@import "./components/button";
 @import "./base/reset";
+@import "./base/global";
+@import "./component/button";
 @import "./helpers/mixin";
-@import "./base/gobal";
+@import "./helpers/variable";
 @import "./pages/home";
